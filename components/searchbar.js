@@ -58,7 +58,7 @@ const SearchBar = ({ docs, onSelect }) => {
                             className="p-2 hover:bg-gray-100 cursor-pointer"
                             onClick={() => handleResultClick(result)}
                         >
-                            {JSON.stringify(result)}
+                            {result.label}
                         </li>
                     ))}
                 </ul>
